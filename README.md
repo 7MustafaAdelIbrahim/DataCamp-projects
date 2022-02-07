@@ -1,5 +1,5 @@
 # DataCamp-projects
-      " Working with jupyter notebooks to carry out an end-to-end analysis on real-world datasets on dataCamp."
+     Working with jupyter notebooks to carry out an end-to-end analysis on real-world datasets on dataCamp.
 ## What is dataCamp ?
 
 Datacamp is an interactive learning platform that teaches topics related to data science. The engaging and bite sized design of its courses are appealing to beginners and learners looking for active content. Its courses and track programs focus on gaining new skills and career paths. The platform works on monthly or yearly subscription plans which can be canceled at any time.
