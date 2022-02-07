@@ -24,3 +24,7 @@ The Nobel laureate data was acquired from the Nobel Prize API.
 ## Inspiration
 
 Which country has won the most prizes in each category? What words are most frequently written in the prize motivation? Can you predict the age, gender, and nationality of next year's Nobel laureates?
+
+
+
+Awesome that you reviewed the whole notebook! If you found this notebook interesting I really appreciate your support. If you have any suggestions for further improving this notebook please let me know via the comments!
