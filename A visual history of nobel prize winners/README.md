@@ -15,7 +15,8 @@ A person or organization awarded the Nobel Prize is called Nobel Laureate. The w
 
 ## Inspiration
 
-Which country has won the most prizes in each category? What words are most frequently written in the prize motivation? Can you predict the age, gender, and nationality of next year's Nobel laureates?
-
-Awesome that you reviewed the whole notebook! If you found this notebook interesting I really appreciate your support.
-If you have any suggestions for further improving this notebook please let me know via the comments!
+Which country has won the most prizes in each category? What words are most frequently written in the prize motivation? Can you predict the age, gender, and nationality of next year's Nobel laureates? Is the share of female Nobel prize winners becoming more equal over time?
+From which country origin most Nobel prize winners?
+How does your country rank with respect to the number of Nobel prize winners in history?
+What is the trend in age with respect to Nobel prize winners (per prize category)?
+Which generations are generating most Nobel prize winners?
