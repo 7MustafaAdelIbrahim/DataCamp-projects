@@ -10,7 +10,9 @@ honey beeA honey bee (Apis).
 
 ![92_notebook](https://user-images.githubusercontent.com/84151016/154531337-230df10b-085e-4c15-b2d2-98740809e48e.jpg)
 
+
 bumble beeA bumble bee (Bombus).
+
 ![20_notebook](https://user-images.githubusercontent.com/84151016/154531388-3b8e36a6-0c1e-49f2-9f5d-03a7130e525a.jpg)
 
 These bees have different behaviors and appearances, but given the variety of backgrounds, positions, and image resolutions, 
@@ -66,13 +68,17 @@ Let's continue building our model. So far our model has two convolutional layers
 
 We'll add the following layers:
 ##### MaxPooling. 
-    This passes a (2, 2) moving window over the image and downscales the image by outputting the maximum value within the window.
+    This passes a (2, 2) moving window over the image and downscales the image 
+    by outputting the maximum value within the window.
 ##### Conv2D. 
-    This adds a third convolutional layer since deeper models, i.e. models with more convolutional layers, are better able to learn features from images.
+    This adds a third convolutional layer since deeper models, i.e. models with more convolutional layers, 
+    are better able to learn features from images.
 ##### Dropout. 
-    This prevents the model from overfitting, i.e. perfectly remembering each image, by randomly setting 25% of the input units to 0 at each update during training.
+    This prevents the model from overfitting, i.e. perfectly remembering each image, 
+    by randomly setting 25% of the input units to 0 at each update during training.
 ##### Flatten. 
-    As its name suggests, this flattens the output from the convolutional part of the CNN into a one-dimensional feature vector which can be passed into the following fully connected layers.
+    As its name suggests, this flattens the output from the convolutional part of the CNN into a one-dimensional feature vector
+     which can be passed into the following fully connected layers.
 ##### Dense. 
     Fully connected layer where every input is connected to every output (see image below).
 ##### Dropout. 
