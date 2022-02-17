@@ -4,12 +4,16 @@
 
 Datacamp is an interactive learning platform that teaches topics related to data science. The engaging and bite sized design of its courses are appealing to beginners and learners looking for active content. Its courses and track programs focus on gaining new skills and career paths. The platform works on monthly or yearly subscription plans which can be canceled at any time.
 
+![data](https://user-images.githubusercontent.com/84151016/154541267-2194fb97-3c5f-49e7-a8f9-5cc36bb2fecf.png)
 
 ## Who Is DataCamp For?
 
 It’s an online learning platform that focuses on learning data skills at your own pace. Its learning methodology is broken into a 4 part process: Assess, Learn, Practice and Apply, that helps to give learners a well-rounded learning experience.
 
 ## Datacamp learning methodology
+
+
+![Datacamp-learning-methodology-1](https://user-images.githubusercontent.com/84151016/154541211-cb5370a5-209f-4409-b05e-ff9388e28176.png)
 
 ### DataCamp Courses
 
@@ -21,3 +25,6 @@ Its 350+ courses are bite sized and digestible for learners, combining videos wi
 
 ***Skill Tracks***: Gain specific expertises with learning a skill track, that is a collection, of course, curated by industry experts to grow your data skills. Its most popular Skill Track courses include R Programming, Importing & Cleaning Data and Data Visualization.
 
+
+
+![project_image](https://user-images.githubusercontent.com/84151016/154541372-d15aeace-48f5-42bd-827e-3d8a3108e3b7.png)
