@@ -25,6 +25,19 @@ Its 350+ courses are bite sized and digestible for learners, combining videos wi
 
 ***Skill Tracks***: Gain specific expertises with learning a skill track, that is a collection, of course, curated by industry experts to grow your data skills. Its most popular Skill Track courses include R Programming, Importing & Cleaning Data and Data Visualization.
 
-
-
 ![project_image](https://user-images.githubusercontent.com/84151016/154541372-d15aeace-48f5-42bd-827e-3d8a3108e3b7.png)
+
+# DataCamp projects.
+          Guided and unguided projects.
+ 
+ ## Guided projects.
+ 
+ 
+ ## Unguided projects.
+ 
+You can apply your coding skills to solve open-ended problems without the step-by-step tasks.
+If you get stuck follow the live code-along videos to see how our expert instructor finds one of the many possible solutions.
+
+![unduided projects](https://user-images.githubusercontent.com/84151016/155840921-e903678b-5f4a-4015-ab29-4a7dafe02d04.jpeg)
+
+
