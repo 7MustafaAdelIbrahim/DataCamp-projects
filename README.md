@@ -33,6 +33,13 @@ Its 350+ courses are bite sized and digestible for learners, combining videos wi
 DataCamp projects allow you to apply the skills you have learned in DataCamp courses. 
 In each project, you will carry out an end-to-end analysis on real-world tasks using real-world tools and workflows.
 In doing so, you will learn how to work with Jupyter notebooks: an open-source web application that is great for interactive data analysis.
+
+On the side, you have a Jupyter notebook, a free, open-source web application that is great for interactive data analysis.
+A DataCamp project consists of a number of tasks, and here, you have the task instructions. Your first task is easy:
+ ### introduction to DataCamp projects.
+ 
+![output_10_1](https://user-images.githubusercontent.com/84151016/156186109-d5855cc6-76fa-4fcb-ac97-df448327f066.png)
+
  
  ## Guided projects.
  
