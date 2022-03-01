@@ -38,7 +38,7 @@ On the side, you have a Jupyter notebook, a free, open-source web application th
 A DataCamp project consists of a number of tasks, and here, you have the task instructions. Your first task is easy:
  ### introduction to DataCamp projects.
  
-![output_10_1](https://user-images.githubusercontent.com/84151016/156186109-d5855cc6-76fa-4fcb-ac97-df448327f066.png)
+![notebook](https://user-images.githubusercontent.com/84151016/156186259-69fe2fe2-cb4a-46a7-88dc-45cd6d44568f.jpg)
 
  
  ## Guided projects.
