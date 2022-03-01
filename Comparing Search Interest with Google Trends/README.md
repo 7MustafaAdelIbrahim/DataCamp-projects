@@ -1,7 +1,6 @@
 ## Comparing Search Interest with Google Trends.
     Manipulate and plot time series data from Google Trends to analyze changes in search interest over time.
     
- 
 ## Project Description
 
 Time series data is everywhere; from temperature records, to unemployment rates, to the S&P 500 Index. 
@@ -13,7 +12,7 @@ In the unguided variant, you will analyze the worldwide search interest of five 
 
 ## Project Tasks
 
-#### 1. The sisters and Google Trends
+### 1. The sisters and Google Trends
 
 I'm not a fan nor a hater of the Kardashians and Jenners, the polarizing family intrigues me. Why? Their marketing prowess.
 Say what you will about them and what they stand for, they are great at the hype game. Everything they touch turns to content.
@@ -36,7 +35,7 @@ We'll recreate the Google Trends plot to visualize their ups and downs over time
 
 First, let's load and inspect our Google Trends data, which was downloaded in CSV form. (The query parameters)[https://trends.google.com/trends/explore?date=2007-01-01%202019-03-21&q=%2Fm%2F0261x8t,%2Fm%2F043p2f2,%2Fm%2F043ttm7,%2Fm%2F05_5_yx,%2Fm%2F05_5_yh]: each of the sisters, worldwide search data, 2007 to present day. (2007 was the year Kim became "active" according to Wikipedia.)
 
-#### 2. Better "kolumn" names
+### 2. Better "kolumn" names
 
 So we have a column for each month since January 2007 and a column for the worldwide search interest for each of the sisters each month. By the way, Google defines the values of search interest as:
 
@@ -48,7 +47,7 @@ Might as well standardize all column formats, too. I like lowercase, short colum
 ![table1](https://user-images.githubusercontent.com/84151016/156177379-10587af2-0e24-44f7-9627-c4b8eba8dcdd.jpeg)
 
 
-#### 3. Pesky data types
+### 3. Pesky data types
 
 That's better. We don't need to scroll our eyes across the table to read the values anymore since it is much less wide. And seeing five columns that all start with the letter "k" … the aesthetics … we should call them "kolumns" now! (Bad joke.)
 
@@ -58,30 +57,30 @@ Let's confirm that by inspecting our data types.
 
 ![info 2](https://user-images.githubusercontent.com/84151016/156177461-0b396467-f778-4e47-a261-e20cf415a875.jpeg)
 
-#### 4. From object to integer
+### 4. From object to integer
 
 Yes, okay, the khloe, kourtney, and kendall columns aren't integers like the kim and kylie columns are. 
 Again, because of the "<" sign that indicates a search interest value between zero and one. Is this an early hint at the hierarchy of sister popularity? We'll see shortly. 
 Before that, we'll need to remove that pesky "<" sign. Then we can change the type of those columns to integer.
 
-#### 5. From object to datetime
+### 5. From object to datetime
 
 Okay, great, no more "<" signs. All the sister columns are of integer type.
 Now let's convert our month column from type object to datetime to make our date data more accessible.
 
-#### 6. Set month as index
+### 6. Set month as index
 
 And finally, let's set the month column as our index to wrap our data cleaning. 
 Having month as index rather than the zero-based row numbers will allow us to write shorter lines of code to create plots, where month will represent our x-axis.
 
-#### 7. The early Kim hype
+### 7. The early Kim hype
 
 Okay! So our data is ready to plot. Because we cleaned our data, we only need one line of code (and just thirteen characters!) 
 to remake the Google Trends chart, plus another line to make the plot show up in our notebook.
 
 ![7](https://user-images.githubusercontent.com/84151016/156177307-201b4eed-e574-48d1-939f-673ec5f6fa7f.png)
 
-#### 8. Kylie's rise
+### 8. Kylie's rise
 
 Oh my! There is so much to make sense of here. (Kim's sharp rise in 2007)[https://en.wikipedia.org/wiki/Kim_Kardashian#2007%E2%80%932009:_Breakthrough_with_reality_television], with the beginning of (Keeping Up with the Kardashians)[https://en.wikipedia.org/wiki/Keeping_Up_with_the_Kardashians], among other things.
 There was no significant search interest for the other four sisters until mid-2009 when Kourtney and Khloé launched the reality television series, (Kourtney and Khloé Take Miami)[https://en.wikipedia.org/wiki/Kourtney_and_Kim_Take_Miami].
@@ -92,7 +91,7 @@ A curious thing starts to happen after that bid as well. Let's zoom in…
 ![8](https://user-images.githubusercontent.com/84151016/156177283-41ce3172-d677-4e38-804d-e964762401db.png)
 
 
-#### 9. Smooth out the fluctuations with rolling means
+### 9. Smooth out the fluctuations with rolling means
 
 It looks like my suspicion may be true: Kim is not always the most searched Kardashian or Jenner sister. Since late-2016, at various months, Kylie overtakes Kim. Two big spikes where she smashed Kim's search interest: in September 2017 when it was reported that Kylie was expecting her first child with rapper Travis Scott and in February 2018 when she gave birth to her daughter, Stormi Webster. The continued success of Kylie Cosmetics has kept her in the news, not to mention making her the "The Youngest Self-Made Billionaire Ever" according to Forbes.
 
@@ -101,7 +100,7 @@ These fluctuations are descriptive but do not really help us answer our question
 ![9](https://user-images.githubusercontent.com/84151016/156177257-421cbc19-3512-4db5-be41-4500987e24e0.png)
 
 
-#### 10. Who's more famous? The Kardashians or the Jenners?
+### 10. Who's more famous? The Kardashians or the Jenners?
 
 Whoa, okay! So by this metric, Kim is still the most famous sister despite Kylie being close and nearly taking her crown. Honestly, the biggest takeaway from this whole exercise might be Kendall not showing up that much. It makes sense, though, despite her wildly successful modeling career. Some have called her "the only normal one in her family" as she tends to shy away from the more dramatic and controversial parts of the media limelight that generate oh so many clicks.
 
@@ -110,5 +109,3 @@ Let's end this analysis with one last plot. In it, we will plot (pun!) the Karda
 The answer? Since 2015, it has been a toss-up. And in the future? With this family and their penchant for big events, who knows?
 
 ![10](https://user-images.githubusercontent.com/84151016/156177237-186200eb-92a0-4f11-ab10-21649c4a7c64.png)
-
-
