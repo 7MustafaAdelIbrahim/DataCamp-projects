@@ -29,6 +29,9 @@ Its 350+ courses are bite sized and digestible for learners, combining videos wi
 
 # DataCamp projects.
           Guided and unguided projects.
+          With either python, R or SQL. 
+
+ ![Datacamp projects](https://user-images.githubusercontent.com/84151016/158667605-c41a2896-dc7b-401d-a6f8-b3f230760110.png)
 
 DataCamp projects allow you to apply the skills you have learned in DataCamp courses. 
 In each project, you will carry out an end-to-end analysis on real-world tasks using real-world tools and workflows.
@@ -36,18 +39,38 @@ In doing so, you will learn how to work with Jupyter notebooks: an open-source w
 
 On the side, you have a Jupyter notebook, a free, open-source web application that is great for interactive data analysis.
 A DataCamp project consists of a number of tasks, and here, you have the task instructions. Your first task is easy:
+
+
  ### introduction to DataCamp projects.
+ 
  
 ![notebook](https://user-images.githubusercontent.com/84151016/156186259-69fe2fe2-cb4a-46a7-88dc-45cd6d44568f.jpg)
 
  
- ## Guided projects.
- 
- 
- ## Unguided projects.
- 
+### Guided Project: 
+
+the original type of project where students follow step-by-step tasks to solve real-world problems.
+
+
+As of Fall 2020, we have introduced a new type of project, ***Unguided Projects***, that caters more to intermediate and advanced learners.  
+
+### Unguided Project: 
+
+students solve open-ended data science problems without step-by-step tasks. If they get stuck, they can follow a live code-along video to see how our expert instructor finds one of the many possible solutions.
 You can apply your coding skills to solve open-ended problems without the step-by-step tasks.
 If you get stuck follow the live code-along videos to see how our expert instructor finds one of the many possible solutions.
+
+Overview of Projects Documentation
+For detailed information on the project creation process, see the full DataCamp projects article collection. 
+To understand how projects work and what to expect during and after development, here are good articles to start with:
+DataCamp project Jupyter Notebook format describes how the Jupyter notebook for projects, which is the authoring tool for DataCamp projects, is structured.
+GitHub repo structure: DataCamp projects describes the file structure of the private GitHub repository where all of the contents of the projects are stored. This repository can only be viewed by DataCamp and the project's instructor(s).
+The project build process from local to DataCamp describes how a project is built from your local environment to a preview on datacamp.com.
+Installing packages in the requirements files describes how to install packages and their correct versions to ensure your project works on datacamp.com.
+Writing project tests (Guided and Unguided, R and Python) 
+Soft launch vs hard launch describes the different phases after your project is launched.
+
+ 
 
 ![unduided projects](https://user-images.githubusercontent.com/84151016/155840921-e903678b-5f4a-4015-ab29-4a7dafe02d04.jpeg)
 
