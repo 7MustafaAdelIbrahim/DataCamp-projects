@@ -16,7 +16,7 @@ In this Project, you will use pre-downloaded datasets to understand the nuts and
 
 ### Project Tasks
 
-1. Local and global thought patterns
+#### 1. Local and global thought patterns
 
 While we might not be Twitter fans, we have to admit that it has a huge influence on the world (who doesn't know about Trump's tweets).
 Twitter data is not only gold in terms of insights, but Twitter-storms are available for analysis in near real-time. This means we can learn about the big waves of thoughts and moods around the world as they arise.
@@ -29,12 +29,12 @@ Twitter provides both global and local trends. Let's load and inspect data for t
 
 Note: [Here](https://developer.twitter.com/en/docs/twitter-api/v1/trends/trends-for-location/api-reference/get-trends-place) is the documentation for this call, and [here](https://developer.twitter.com/en/docs/api-reference-index) a full overview on Twitter's APIs.
 
-2. Prettifying the output
+#### 2. Prettifying the output
 
 Our data was hard to read! Luckily, we can resort to the json.dumps() method to have it formatted as a pretty JSON string.
 json.dumps() formats data as a JSON string. If you pass 'indent' to the method (a positive integer), then all the elements in the JSON array are printed with that indent level. This makes it easy to read the results — pretty-printed.
 
-3. Finding common trends
+#### 3. Finding common trends
 
 🕵️‍♀️ From the pretty-printed results (output of the previous task), we can observe that:
 
@@ -50,7 +50,7 @@ There are some trends which are unique to the US.
 
 It’s easy to skim through the two sets of trends and spot common trends, but let's not do "manual" work. We can use Python’s set data structure to find common trends — we can iterate through the two trends objects, cast the lists of names to sets, and call the intersection method to get the common names between the two sets.
 
-4. Exploring the hot trend
+#### 4. Exploring the hot trend
 
 🕵️‍♀️ From the intersection (last output) we can see that, out of the two sets of trends (each of size 50), we have 11 overlapping topics. In particular, there is one common trend that sounds very interesting: #WeLoveTheEarth — so good to see that Twitteratis are unanimously talking about loving Mother Earth! 💚
 
@@ -63,14 +63,14 @@ Image Source:Official Music Video Cover: https://welovetheearth.org/video/
 We have found a hot-trend, #WeLoveTheEarth. Now let's see what story it is screaming to tell us!
 If we query Twitter's search API with this hashtag as query parameter, we get back actual tweets related to it. We have the response from the search API stored in the datasets folder as 'WeLoveTheEarth.json'. So let's load this dataset and do a deep dive in this trend.
 
-5. Digging deeper
+#### 5. Digging deeper
 
 🕵️‍♀️ Printing the first two tweet items makes us realize that there’s a lot more to a tweet than what we normally think of as a tweet — there is a lot more than just a short text!
 
 But hey, let's not get overwhemled by all the information in a tweet object! Let's focus on a few interesting fields and see if we can find any hidden insights there.
 
 
-6. Frequency analysis
+#### 6. Frequency analysis
 
 🕵️‍♀️ Just from the first few results of the last extraction, we can deduce that:
 
@@ -83,7 +83,7 @@ Helpful links:
 
 Counter [documentation](https://docs.python.org/2/library/collections.html)
 
-7. Activity around the trend
+#### 7. Activity around the trend
 
 🕵️‍♀️ Based on the last frequency distributions we can further build-up on our deductions:
 
@@ -100,13 +100,11 @@ We can measure a tweet's popularity by analyzing the retweetcount and favoriteco
 
 Note: The retweet_count gives us the total number of times the original tweet was retweeted. It should be the same in both the original tweet and all the next retweets. Tinkering around with some sample tweets and the official documentaiton are the way to get your head around the mnay fields.
 
-8. A table that speaks a 1000 words
+#### 8. A table that speaks a 1000 words
 
 Let's manipulate the data further and visualize it in a better and richer way — "looks matter!"
 
-
-
-9. Analyzing used languages
+#### 9. Analyzing used languages
 
 🕵️‍♀️ Our table tells us that:
 
@@ -117,8 +115,7 @@ The large differences in reactions could be explained by the fact that this was 
 
 Can we find some more interesting patterns in the data? From the text of the tweets, we could spot different languages, so let's create a frequency distribution for the languages.
 
-10. Final thoughts
-
+#### 10. Final thoughts
 
 🕵️‍♀️ The last histogram tells us that:
 
@@ -140,7 +137,8 @@ Magic Formula = Data + Python + Creativity + Curiosity
 
 ![finish_line](https://user-images.githubusercontent.com/84151016/158492096-dd2e81cd-1967-4f33-9022-87a82bd766bc.jpg)
 
-Helpful links:
+#### Helpful links:
+
 [Twitter API Reference Index](https://developer.twitter.com/en/docs/api-reference-index)
 
 [Twitter Developers Docs](https://developer.twitter.com/en/docs)
