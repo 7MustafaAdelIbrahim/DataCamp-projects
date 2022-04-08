@@ -90,7 +90,7 @@ K-means is an algorithm which helps us to implement clustering in Python. The na
 
 We get the following distribution for the clusters:
 
-<img src= "https://user-images.githubusercontent.com/84151016/162481830-633f28ec-ec39-407c-8729-12724386cc51.png" width= "800"/>
+<img src= "https://user-images.githubusercontent.com/84151016/162481830-633f28ec-ec39-407c-8729-12724386cc51.png" width= "600"/>
 
 
 ## 9. Calculate similarity distance
